@@ -1,4 +1,5 @@
 import { NavBar } from "@/components/NavBar";
+import Footer from "@/components/Footer";
 import styles from "./page.module.css";
 import WavyBox from "@/public/WavyBox.svg";
 import Image from "next/image";
@@ -27,6 +28,7 @@ export default function Home() {
         <ActionAreaCard />
         <ActionAreaCard />
       </div>
+      <Footer />
     </main>
   );
 }
