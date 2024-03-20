@@ -9,6 +9,17 @@ export default function Home() {
       <NavBar />
       <div className="wavyBox">
         <Image src={WavyBox} alt="wavy box background" />
+        <div>
+          <h1>
+            Hello!👋
+            <br />
+            Welcome to Reciped.
+          </h1>
+          <p>
+            Home to hundreds of your favorite recipes,
+            <br /> all at your fingertips
+          </p>
+        </div>
       </div>
     </main>
   );

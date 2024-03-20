@@ -96,13 +96,29 @@ a {
 }
 
 .wavyBox {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.wavyBox img {
-  height: 75vh;
+  margin: 7rem auto;
+  display: grid;
+  place-items: center;
+  img {
+    height: 75vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  div {
+    place-self: center;
+    place-content: center;
+    color: black;
+    position: relative;
+    text-align: center;
+    h1 {
+      font-size: 4rem;
+      font-weight: 550;
+    }
+    p {
+      margin: 1rem;
+    }
+  }
 }
 
 .navBar {
