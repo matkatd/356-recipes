@@ -11,14 +11,14 @@ export default function Home() {
       <div className="wavyBox">
         <Image src={WavyBox} alt="wavy box background" />
         <div>
-          <h1>
+          <h1 style={{ color: "#232323" }}>
             Hello!👋
             <br />
             Welcome to Reciped.
           </h1>
           <p style={{ color: "#555555" }}>
             Home to hundreds of your favorite recipes,
-            <br /> all at your fingertips
+            <br /> without all the clutter
           </p>
         </div>
       </div>
