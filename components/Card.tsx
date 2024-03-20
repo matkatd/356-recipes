@@ -64,7 +64,7 @@ export default function ActionAreaCard() {
                 fontSize: "24px",
                 color: "#232323",
                 fontFamily: "Inter",
-                fontWeight: "450",
+                fontWeight: "500",
                 marginBottom: "6px",
               }}
             >
@@ -80,12 +80,14 @@ export default function ActionAreaCard() {
             >
               <Typography
                 style={{
-                  fontSize: "16px",
+                  fontSize: "12px",
                   color: "#888888",
                   fontFamily: "Inter",
                 }}
               >
-                <StarBorderOutlinedIcon style={{ fontSize: "medium" }} />
+                <StarBorderOutlinedIcon
+                  style={{ fontSize: "small", marginRight: "2px" }}
+                />
                 4.6/5
               </Typography>
             </div>
@@ -100,12 +102,14 @@ export default function ActionAreaCard() {
             <div>
               <Typography
                 style={{
-                  fontSize: "16px",
+                  fontSize: "12px",
                   color: "#888888",
                   fontFamily: "Inter",
                 }}
               >
-                <AccessTimeOutlinedIcon style={{ fontSize: "medium" }} />
+                <AccessTimeOutlinedIcon
+                  style={{ fontSize: "small", marginRight: "4px" }}
+                />
                 20 mins
               </Typography>
             </div>
@@ -113,7 +117,7 @@ export default function ActionAreaCard() {
             <div>
               <Typography
                 style={{
-                  fontSize: "16px",
+                  fontSize: "12px",
                   color: "#888888",
                   fontFamily: "Inter",
                 }}
