@@ -23,7 +23,7 @@ export default function ActionAreaCard() {
             component="img"
             height="200"
             width="300"
-            image="/chicken salad.png"
+            image="@/public/chicken-salad.png"
             alt="chicken salad"
           />
           <div
