@@ -18,7 +18,7 @@ export default function ActionAreaCard() {
         boxShadow: "0px 4px 11.9px rgba(0, 0, 0, 0.04)",
       }}
     >
-      <CardActionArea>
+      <CardActionArea href="/recipe/1">
         <div style={{ borderBottom: "1px solid #DDDDDD" }}>
           <CardMedia
             component="img"

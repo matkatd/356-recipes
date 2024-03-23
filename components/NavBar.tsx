@@ -8,7 +8,9 @@ type NavBarProps = {};
 
 export const NavBar = ({}: NavBarProps) => (
   <nav className="navBar">
-    <Image src={Logo} alt="Reciped Logo" />
+    <Link href="/">
+      <Image src={Logo} alt="Reciped Logo" />
+    </Link>
     <ul>
       <li>
         <Link href="/">Home</Link>
