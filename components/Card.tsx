@@ -7,6 +7,7 @@ import AccessTimeOutlinedIcon from "@mui/icons-material/AccessTimeOutlined";
 import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 import BookmarkBorderOutlinedIcon from "@mui/icons-material/BookmarkBorderOutlined";
 import { CardActionArea } from "@mui/material";
+import chickenSalad from "@/public/chickenSalad.jpg";
 
 export default function ActionAreaCard() {
   return (
@@ -23,7 +24,7 @@ export default function ActionAreaCard() {
             component="img"
             height="200"
             width="300"
-            image="@/public/chicken-salad.png"
+            src={chickenSalad.src}
             alt="chicken salad"
           />
           <div
