@@ -12,6 +12,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+
   p {
     font-size: 1rem;
     font-family: var(--font-mono);
@@ -19,14 +20,17 @@ footer {
   }
 }
 
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
 .cardContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 2rem;
   justify-content: space-between;
-  padding: 0 160px;
-  padding-top: 70px;
-  padding-bottom: 48px;
+  padding: 70px 160px 49px 160px;
 }
 
 .recipePageGrid {
@@ -35,10 +39,6 @@ footer {
   margin: 2rem auto;
   max-width: var(--max-width);
   color: black;
-  h1 {
-    font-size: 2rem;
-    font-weight: 600;
-  }
 
   h2 {
     font-size: 1.5rem;
@@ -50,90 +50,94 @@ footer {
     font-weight: 500;
     padding-bottom: 0.5rem;
   }
+}
 
-  .recipeGridCard {
-    background-color: whitesmoke;
-    border-radius: var(--border-radius);
-    width: 100%;
-    padding: 2rem;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+.recipeGridCard {
+  background-color: whitesmoke;
+  border-radius: var(--border-radius);
+  width: 100%;
+  padding: 2rem;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.3);
+}
+
+.mainInfo {
+  display: grid;
+  grid-template-columns: 1.75fr 4fr;
+  padding: 0;
+}
+
+.recipeName {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.recipeImage {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius) 0 0 var(--border-radius);
+}
+
+.recipeInfo {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.spreadOut {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.rateRecipe {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  padding-top: 1rem;
+  font-size: 1.2rem;
+
+  strong {
+    font-weight: 500;
   }
+}
 
-  .mainInfo {
-    display: grid;
-    grid-template-columns: 1.75fr 4fr;
-    padding: 0;
+.beforeWhileAfter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
 
-    .recipeName {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      gap: 1rem;
-    }
+.beforeAfter {
+  display: grid;
+  /* grid-template-rows: 1fr 1fr; */
+  gap: 2rem;
+}
 
-    .recipeImage {
-      width: 100%;
-      height: auto;
-      border-radius: var(--border-radius) 0 0 var(--border-radius);
-    }
-    .recipeInfo {
-      padding: 2rem;
-      display: flex;
-      gap: 1rem;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-  }
+.neededStuff {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
 
-  .spreadOut {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-
-  .rateRecipe {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    align-items: center;
-    padding-top: 1rem;
-    font-size: 1.2rem;
-    strong {
-      font-weight: 500;
-    }
-  }
-
-  .beforeWhileAfter {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-
-    .beforeAfter {
-      display: grid;
-      /* grid-template-rows: 1fr 1fr; */
-      gap: 2rem;
-    }
-
-    .neededStuff {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1.5rem;
-
-      ul {
-        padding-left: 1rem;
-      }
-    }
+  ul {
+    padding-left: 1rem;
   }
 }
 
 .whileCooking {
   ol {
     padding-left: 1rem;
+
     li {
       padding-bottom: 1rem;
     }
   }
 }
+
 .saveButton {
   background-color: rgb(21, 113, 219);
   color: white;
@@ -148,6 +152,7 @@ footer {
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
+
   &:hover {
     background-color: #1c9ade;
   }
@@ -167,6 +172,7 @@ footer {
   font-weight: 500;
   cursor: pointer;
   transition: all 0.3s ease;
+
   &:hover {
     background-color: #c6c6c6;
     color: white;
@@ -214,22 +220,26 @@ a {
   margin: 10vh auto;
   display: grid;
   place-items: center;
+
   img {
     height: 75vh;
     position: absolute;
     top: 0;
     left: 0;
   }
+
   div {
     place-self: center;
     place-content: center;
     color: black;
     position: relative;
     text-align: center;
+
     h1 {
       font-size: 4rem;
       font-weight: 550;
     }
+
     p {
       margin: 1rem;
     }
@@ -254,6 +264,7 @@ a {
     padding: 0;
     margin: 0;
     justify-content: space-between;
+
     li {
       padding: 0 1rem;
     }
