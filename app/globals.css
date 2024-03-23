@@ -115,12 +115,12 @@
     }
 
     .neededStuff {
-      display: flex;
-      flex-direction: row;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
       gap: 1.5rem;
 
       ul {
-        padding-left: 2rem;
+        padding-left: 1rem;
       }
     }
   }
@@ -128,7 +128,7 @@
 
 .whileCooking {
   ol {
-    padding-left: 2rem;
+    padding-left: 1rem;
     li {
       padding-bottom: 1rem;
     }

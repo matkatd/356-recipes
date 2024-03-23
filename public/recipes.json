@@ -1,0 +1,520 @@
+[
+  {
+    "id": 1,
+    "author": "Mediterranean Cuisine Lover",
+    "url": "falafel.jpg",
+    "isBasedOn": "",
+    "cookTime": "15 mins",
+    "datePublished": "",
+    "keywords": "",
+    "description": "Homemade Falafel recipe.",
+    "image": "",
+    "ingredients": [
+      {
+        "amount": "1/2",
+        "units": "pound",
+        "ingredient": "dried chickpeas"
+      },
+      {
+        "amount": "2",
+        "units": "ounces",
+        "ingredient": "picked fresh cilantro, parsley, or mint leaves"
+      },
+      {
+        "amount": "6",
+        "units": "scallions",
+        "ingredient": "white and pale green parts only"
+      },
+      {
+        "amount": "2",
+        "units": "medium cloves",
+        "ingredient": "garlic"
+      },
+      {
+        "amount": "1",
+        "units": "teaspoon",
+        "ingredient": "ground cumin"
+      },
+      {
+        "amount": "1/2",
+        "units": "teaspoon",
+        "ingredient": "ground coriander seeds"
+      },
+      {
+        "amount": "2",
+        "units": "teaspoons",
+        "ingredient": "kosher salt"
+      },
+      {
+        "amount": "2",
+        "units": "to 3 cups",
+        "ingredient": "vegetable oil"
+      }
+    ],
+    "name": "Homemade Falafel",
+    "prepTime": "35 mins",
+    "instructions": [
+      "Rinse chickpeas and place in a large bowl. Cover with cold water, adding enough to allow the chickpeas to at least triple in volume. Cover and let stand at room temperature overnight. The next day, drain, rinse, and carefully dry chickpeas in a salad spinner.",
+      "Combine chickpeas, herbs, scallions, garlic, cumin, coriander, and salt in the work bowl of a food processor. Pulse until chickpeas are very finely minced, stopping the food processor to scrape down the sides as necessary. A handful of the mixture squeezed into a ball should be able to barely hold together. If not, process a little more.",
+      "Transfer mixture to a bowl, cover, and place in refrigerator for 15 minutes to allow time for more starch to seep out of chickpeas. This will help the balls retain their shape better once formed. Using a tablespoon measure, scoop out heaping spoonfuls of the mixture into your hand. Gently shape each into a ball (you will not be able to roll the mixture like cookie dough; this is okay) and place them on a clean plate.",
+      "When all the balls have been formed, fill a deep cast iron, carbon steel, or nonstick skillet or Dutch oven with 3/4 inch of oil. Heat over high heat until oil registers 375°F (190°C) on an instant-read thermometer. Carefully lower chickpea balls into oil one at a time, allowing a little space between each ball and cooking in batches if necessary. Adjust heat as necessary to maintain a temperature of between 350 and 375°F (175 and 190°C). Allow to cook undisturbed until well browned on bottom sides, then carefully flip balls with a fork until browned on second side, about 4 minutes total. Transfer cooked chickpea balls to a paper towel–lined plate and season with salt. Repeat with remaining chickpea balls.",
+      "Serve immediately with tahini and/or hummus on the side, or stuffed into pita bread with tahini, tomatoes, cucumber, pickles, and shredded cabbage."
+    ],
+    "recipeYield": "4 servings",
+    "recipe_title": "Homemade Falafel",
+    "difficulty": "Easy",
+    "equipment": [
+      "Salad spinner",
+      "Food processor",
+      "Instant-read thermometer"
+    ],
+    "servings": 4,
+    "prep_time": "15 minutes",
+    "nutrition_info": {
+      "calories": 473,
+      "fat": "30g",
+      "carbohydrates": "41g",
+      "protein": "15g"
+    },
+    "rating": null
+  },
+  {
+    "id": 2,
+    "author": "Italian Food Lover",
+    "url": "spaghetti.jpg",
+    "isBasedOn": "",
+    "cookTime": "20 mins",
+    "datePublished": "",
+    "keywords": "pasta, Italian, bacon, eggs, cheese",
+    "description": "Classic Italian pasta dish with bacon, eggs, and cheese.",
+    "image": "Spaghetti Carbonara",
+    "ingredients": [
+      {
+        "amount": "8",
+        "units": "ounces",
+        "ingredient": "spaghetti"
+      },
+      {
+        "amount": "4",
+        "units": "ounces",
+        "ingredient": "pancetta or guanciale"
+      },
+      {
+        "amount": "2",
+        "units": "",
+        "ingredient": "eggs"
+      },
+      {
+        "amount": "1/2",
+        "units": "cup",
+        "ingredient": "grated Parmesan cheese"
+      },
+      {
+        "amount": "",
+        "units": "",
+        "ingredient": "black pepper"
+      },
+      {
+        "amount": "",
+        "units": "",
+        "ingredient": "salt"
+      }
+    ],
+    "name": "Spaghetti Carbonara",
+    "prepTime": "10 mins",
+    "instructions": [
+      "Cook spaghetti according to package instructions until al dente.",
+      "In a skillet, cook pancetta or guanciale until crispy. Remove from skillet and drain on paper towels.",
+      "In a bowl, beat eggs with grated Parmesan cheese, black pepper, and a pinch of salt.",
+      "Drain spaghetti and immediately toss with egg mixture until well coated. The heat from the pasta will cook the eggs.",
+      "Crumble cooked pancetta or guanciale on top and serve immediately."
+    ],
+    "recipeYield": "4 servings",
+    "recipe_title": "Spaghetti Carbonara",
+    "difficulty": "Medium",
+    "equipment": ["Skillet", "Large pot"],
+    "servings": 4,
+    "prep_time": "10 mins",
+    "nutrition_info": {
+      "calories": 450,
+      "fat": "20g",
+      "carbohydrates": "35g",
+      "protein": "25g"
+    },
+    "rating": null
+  },
+  {
+    "id": 3,
+    "author": "Indian Cuisine Lover",
+    "url": "curry.jpg",
+    "isBasedOn": "",
+    "cookTime": "30 mins",
+    "datePublished": "",
+    "keywords": "Indian, chicken, curry, spicy",
+    "description": "Popular Indian dish with marinated chicken cooked in a rich, creamy tomato-based sauce.",
+    "image": "Tikka Masala",
+    "ingredients": [
+      {
+        "amount": "1",
+        "units": "lb",
+        "ingredient": "boneless, skinless chicken thighs"
+      },
+      {
+        "amount": "1/2",
+        "units": "cup",
+        "ingredient": "plain yogurt"
+      },
+      {
+        "amount": "2",
+        "units": "tbsp",
+        "ingredient": "lemon juice"
+      },
+      {
+        "amount": "3",
+        "units": "tbsp",
+        "ingredient": "vegetable oil"
+      },
+      {
+        "amount": "1",
+        "units": "medium",
+        "ingredient": "onion, finely chopped"
+      },
+      {
+        "amount": "3",
+        "units": "cloves",
+        "ingredient": "garlic, minced"
+      },
+      {
+        "amount": "1",
+        "units": "tbsp",
+        "ingredient": "fresh ginger, minced"
+      },
+      {
+        "amount": "2",
+        "units": "tbsp",
+        "ingredient": "garam masala"
+      },
+      {
+        "amount": "1",
+        "units": "tsp",
+        "ingredient": "ground cumin"
+      },
+      {
+        "amount": "1",
+        "units": "tsp",
+        "ingredient": "ground turmeric"
+      },
+      {
+        "amount": "1",
+        "units": "tsp",
+        "ingredient": "ground coriander"
+      },
+      {
+        "amount": "1/2",
+        "units": "tsp",
+        "ingredient": "cayenne pepper"
+      },
+      {
+        "amount": "1",
+        "units": "cup",
+        "ingredient": "tomato sauce"
+      },
+      {
+        "amount": "1",
+        "units": "cup",
+        "ingredient": "heavy cream"
+      },
+      {
+        "amount": "1/4",
+        "units": "cup",
+        "ingredient": "chopped fresh cilantro"
+      }
+    ],
+    "name": "Chicken Tikka Masala",
+    "prepTime": "20 mins",
+    "instructions": [
+      "In a bowl, combine yogurt, lemon juice, 1 tablespoon of vegetable oil, and half of the minced garlic and ginger.",
+      "Add chicken thighs to the marinade and coat evenly. Cover and refrigerate for at least 1 hour, preferably overnight.",
+      "In a large skillet, heat remaining vegetable oil over medium heat. Add chopped onion and cook until soft and translucent.",
+      "Add remaining garlic and ginger, garam masala, ground cumin, ground turmeric, ground coriander, and cayenne pepper. Cook until fragrant.",
+      "Stir in tomato sauce and heavy cream. Simmer for 10 minutes.",
+      "Meanwhile, grill or broil marinated chicken until cooked through. Cut into bite-sized pieces.",
+      "Add cooked chicken to the sauce and simmer for an additional 5 minutes.",
+      "Garnish with chopped fresh cilantro and serve with rice or naan bread."
+    ],
+    "recipeYield": "4 servings",
+    "recipe_title": "Chicken Tikka Masala",
+    "difficulty": "Medium",
+    "equipment": ["Large skillet", "Grill or broiler"],
+    "servings": 4,
+    "prep_time": "20 mins",
+    "nutrition_info": {
+      "calories": 380,
+      "fat": "22g",
+      "carbohydrates": "10g",
+      "protein": "30g"
+    },
+    "rating": null
+  },
+  {
+    "id": 4,
+    "author": "Vegetarian Cooking Enthusiast",
+    "url": "chili.jpg",
+    "isBasedOn": "",
+    "cookTime": "45 mins",
+    "datePublished": "",
+    "keywords": "vegetarian, chili, beans, spicy",
+    "description": "Hearty and flavorful vegetarian chili packed with beans, vegetables, and spices.",
+    "image": "Vegetarian Chili",
+    "ingredients": [
+      {
+        "amount": "1",
+        "units": "cup",
+        "ingredient": "dried kidney beans"
+      },
+      {
+        "amount": "1",
+        "units": "cup",
+        "ingredient": "dried black beans"
+      },
+      {
+        "amount": "1",
+        "units": "tbsp",
+        "ingredient": "olive oil"
+      },
+      {
+        "amount": "1",
+        "units": "medium",
+        "ingredient": "onion, diced"
+      },
+      {
+        "amount": "2",
+        "units": "cloves",
+        "ingredient": "garlic, minced"
+      },
+      {
+        "amount": "1",
+        "units": "green bell pepper, diced"
+      },
+      {
+        "amount": "1",
+        "units": "red bell pepper, diced"
+      },
+      {
+        "amount": "1",
+        "units": "carrot, diced"
+      },
+      {
+        "amount": "1",
+        "units": "zucchini, diced"
+      },
+      {
+        "amount": "28",
+        "units": "ounces",
+        "ingredient": "crushed tomatoes"
+      },
+      {
+        "amount": "1",
+        "units": "cup",
+        "ingredient": "vegetable broth"
+      },
+      {
+        "amount": "2",
+        "units": "tbsp",
+        "ingredient": "chili powder"
+      },
+      {
+        "amount": "1",
+        "units": "tsp",
+        "ingredient": "ground cumin"
+      },
+      {
+        "amount": "1",
+        "units": "tsp",
+        "ingredient": "dried oregano"
+      },
+      {
+        "amount": "1/2",
+        "units": "tsp",
+        "ingredient": "cayenne pepper"
+      },
+      {
+        "amount": "salt and black pepper",
+        "units": "",
+        "ingredient": "to taste"
+      }
+    ],
+    "name": "Vegetarian Chili",
+    "prepTime": "15 mins",
+    "instructions": [
+      "Soak dried kidney beans and black beans in water overnight.",
+      "In a large pot, heat olive oil over medium heat. Add diced onion and garlic, and cook until softened.",
+      "Add diced bell peppers, carrot, and zucchini to the pot. Cook until vegetables are tender.",
+      "Drain soaked beans and add them to the pot along with crushed tomatoes, vegetable broth, chili powder, ground cumin, dried oregano, and cayenne pepper.",
+      "Season with salt and black pepper to taste. Bring to a simmer and cook for 30 minutes, stirring occasionally, until beans are tender and flavors are well blended.",
+      "Serve hot, garnished with your favorite toppings such as shredded cheese, chopped cilantro, or diced avocado."
+    ],
+    "recipeYield": "6 servings",
+    "recipe_title": "Vegetarian Chili",
+    "difficulty": "Easy",
+    "equipment": ["Large pot"],
+    "servings": 6,
+    "prep_time": "15 mins",
+    "nutrition_info": {
+      "calories": 280,
+      "fat": "3g",
+      "carbohydrates": "52g",
+      "protein": "15g"
+    },
+    "rating": null
+  },
+  {
+    "id": 5,
+    "author": "Baking Enthusiast",
+    "url": "brownies.jpg",
+    "isBasedOn": "",
+    "cookTime": "25 mins",
+    "datePublished": "",
+    "keywords": "dessert, chocolate, brownies",
+    "description": "Decadent chocolate brownies that are rich, fudgy, and irresistibly delicious.",
+    "image": "Chocolate Brownies",
+    "ingredients": [
+      {
+        "amount": "1",
+        "units": "cup",
+        "ingredient": "unsalted butter"
+      },
+      {
+        "amount": "8",
+        "units": "ounces",
+        "ingredient": "semisweet chocolate, chopped"
+      },
+      {
+        "amount": "1 1/2",
+        "units": "cups",
+        "ingredient": "granulated sugar"
+      },
+      {
+        "amount": "4",
+        "units": "",
+        "ingredient": "large eggs"
+      },
+      {
+        "amount": "2",
+        "units": "tsp",
+        "ingredient": "vanilla extract"
+      },
+      {
+        "amount": "1 1/4",
+        "units": "cups",
+        "ingredient": "all-purpose flour"
+      },
+      {
+        "amount": "1/4",
+        "units": "cup",
+        "ingredient": "cocoa powder"
+      },
+      {
+        "amount": "1/2",
+        "units": "tsp",
+        "ingredient": "salt"
+      },
+      {
+        "amount": "1",
+        "units": "cup",
+        "ingredient": "chopped nuts (optional)"
+      }
+    ],
+    "name": "Chocolate Brownies",
+    "prepTime": "15 mins",
+    "instructions": [
+      "Preheat oven to 350°F (175°C). Grease and flour a 9x13-inch baking pan.",
+      "In a heatproof bowl set over a pot of simmering water, melt butter and chopped semisweet chocolate, stirring until smooth. Remove from heat and let cool slightly.",
+      "In a large mixing bowl, whisk together sugar, eggs, and vanilla extract until well combined.",
+      "Gradually pour the melted chocolate mixture into the egg mixture, stirring until smooth.",
+      "In a separate bowl, sift together all-purpose flour, cocoa powder, and salt. Gradually add the dry ingredients to the wet ingredients, mixing until just combined.",
+      "If using nuts, fold them into the batter.",
+      "Pour the batter into the prepared baking pan and spread it evenly.",
+      "Bake in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center comes out with a few moist crumbs.",
+      "Allow the brownies to cool completely in the pan on a wire rack before cutting into squares."
+    ],
+    "recipeYield": "16 brownies",
+    "recipe_title": "Chocolate Brownies",
+    "difficulty": "Medium",
+    "equipment": ["9x13-inch baking pan", "Mixing bowls"],
+    "servings": 16,
+    "prep_time": "15 mins",
+    "nutrition_info": {
+      "calories": 250,
+      "fat": "15g",
+      "carbohydrates": "28g",
+      "protein": "4g"
+    },
+    "rating": null
+  },
+  {
+    "id": 6,
+    "author": "Mediterranean Cuisine Lover",
+    "url": "capreseSalad.jpg",
+    "isBasedOn": "",
+    "cookTime": "0 mins",
+    "datePublished": "",
+    "keywords": "salad, Italian, Mediterranean, tomato, mozzarella, basil",
+    "description": "Fresh and simple salad made with ripe tomatoes, creamy mozzarella cheese, and aromatic basil, drizzled with balsamic glaze.",
+    "image": "Caprese Salad",
+    "ingredients": [
+      {
+        "amount": "4",
+        "units": "ripe",
+        "ingredient": "tomatoes, sliced"
+      },
+      {
+        "amount": "8",
+        "units": "ounces",
+        "ingredient": "fresh mozzarella cheese, sliced"
+      },
+      {
+        "amount": "1/4",
+        "units": "cup",
+        "ingredient": "fresh basil leaves, torn"
+      },
+      {
+        "amount": "2",
+        "units": "tbsp",
+        "ingredient": "extra virgin olive oil"
+      },
+      {
+        "amount": "2",
+        "units": "tbsp",
+        "ingredient": "balsamic glaze"
+      },
+      {
+        "amount": "",
+        "units": "",
+        "ingredient": "salt and black pepper"
+      }
+    ],
+    "name": "Caprese Salad",
+    "prepTime": "10 mins",
+    "instructions": [
+      "Arrange sliced tomatoes and mozzarella cheese on a serving platter, alternating them.",
+      "Scatter torn basil leaves over the tomatoes and mozzarella.",
+      "Drizzle extra virgin olive oil and balsamic glaze over the salad.",
+      "Season with salt and black pepper to taste.",
+      "Serve immediately as a refreshing appetizer or side dish."
+    ],
+    "recipeYield": "4 servings",
+    "recipe_title": "Caprese Salad",
+    "difficulty": "Easy",
+    "equipment": ["Serving platter"],
+    "servings": 4,
+    "prep_time": "10 mins",
+    "nutrition_info": {
+      "calories": 200,
+      "fat": "15g",
+      "carbohydrates": "7g",
+      "protein": "10g"
+    },
+    "rating": null
+  }
+]

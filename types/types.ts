@@ -12,6 +12,7 @@ export type NutritionInfo = {
 };
 
 export type Recipe = {
+  id: number;
   author: string;
   url: string;
   isBasedOn: string;
