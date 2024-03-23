@@ -37,6 +37,7 @@ const RecipePage = async ({ params }: { params: { recipeId: string } }) => {
       <div className="recipePageGrid">
         <div className="recipeGridCard mainInfo">
           <Image
+            className="recipeImage"
             src={`/${recipe?.url}`}
             width={200}
             height={200}
