@@ -184,7 +184,7 @@ footer {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --foreground: #fd704d;
+    --foreground: #ff8a6c;
   }
 }
 

@@ -6,15 +6,23 @@ import { Recipe } from "@/types/types";
 import { Rating } from "@mui/material";
 import { Bookmark, Print } from "@mui/icons-material";
 import { RecipeGridCard } from "@/components/RecipeGridCard";
+import { MongoClient } from "mongodb";
 
 const getRecipes = async () => {
-  // fetch from /public/recipes.json
-  const file = await fs.readFile(
-    process.cwd() + "/public/recipes.json",
-    "utf8"
-  );
-  const data = JSON.parse(file);
-  return data;
+  // fetch from MONGODB_CONN connection string
+  const client = new MongoClient(process.env.MONGODB_URI ?? "", {});
+
+  try {
+    await client.connect();
+    const database = client.db("reciped");
+    const collection = database.collection("recipes");
+    const recipes = await collection.find().toArray();
+    return JSON.parse(JSON.stringify(recipes));
+  } catch (error) {
+    console.error(error);
+  } finally {
+    await client.close();
+  }
 };
 
 const RecipePage = async ({ params }: { params: { recipeId: string } }) => {
