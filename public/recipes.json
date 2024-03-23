@@ -76,7 +76,7 @@
       "carbohydrates": "41g",
       "protein": "15g"
     },
-    "rating": null
+    "rating": 5
   },
   {
     "id": 2,
@@ -141,7 +141,7 @@
       "carbohydrates": "35g",
       "protein": "25g"
     },
-    "rating": null
+    "rating": 4
   },
   {
     "id": 3,
@@ -254,7 +254,7 @@
       "carbohydrates": "10g",
       "protein": "30g"
     },
-    "rating": null
+    "rating": 4.5
   },
   {
     "id": 4,
@@ -366,7 +366,7 @@
       "carbohydrates": "52g",
       "protein": "15g"
     },
-    "rating": null
+    "rating": 4
   },
   {
     "id": 5,
@@ -450,7 +450,7 @@
       "carbohydrates": "28g",
       "protein": "4g"
     },
-    "rating": null
+    "rating": 5
   },
   {
     "id": 6,
@@ -515,6 +515,6 @@
       "carbohydrates": "7g",
       "protein": "10g"
     },
-    "rating": null
+    "rating": 3.5
   }
 ]

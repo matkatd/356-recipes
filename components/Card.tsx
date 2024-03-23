@@ -8,8 +8,13 @@ import StarBorderOutlinedIcon from "@mui/icons-material/StarBorderOutlined";
 import BookmarkBorderOutlinedIcon from "@mui/icons-material/BookmarkBorderOutlined";
 import { CardActionArea } from "@mui/material";
 import chickenSalad from "@/public/chickenSalad.jpg";
+import { Recipe } from "@/types/types";
 
-export default function ActionAreaCard() {
+type RecipeCardProps = {
+  recipe: Recipe;
+};
+
+export default function RecipeCard({ recipe }: RecipeCardProps) {
   return (
     <Card
       sx={{
@@ -18,14 +23,14 @@ export default function ActionAreaCard() {
         boxShadow: "0px 4px 11.9px rgba(0, 0, 0, 0.04)",
       }}
     >
-      <CardActionArea href="/recipe/1">
+      <CardActionArea href={`/recipe/${recipe?.id}`}>
         <div style={{ borderBottom: "1px solid #DDDDDD" }}>
           <CardMedia
             component="img"
-            height="200"
+            height="300"
             width="300"
-            src={chickenSalad.src}
-            alt="chicken salad"
+            src={`/${recipe?.url}`}
+            alt={recipe?.image}
           />
           <div
             style={{
@@ -38,6 +43,7 @@ export default function ActionAreaCard() {
               backgroundColor: "#CCCCCC",
               display: "flex",
               justifyContent: "center",
+              textAlign: "center",
               alignItems: "center",
               background: "white",
               boxShadow: "0px 4px 11.9px rgba(0, 0, 0, 0.04)",
@@ -51,6 +57,12 @@ export default function ActionAreaCard() {
                 padding: 0,
                 fontSize: "24px",
                 color: "#232323",
+                height: "48px",
+                width: "48px",
+                display: "flex",
+                placeContent: "center",
+                justifyContent: "center",
+                placeItems: "center",
               }}
             >
               {/* Icon or content for the button */}
@@ -69,7 +81,7 @@ export default function ActionAreaCard() {
                 marginBottom: "6px",
               }}
             >
-              Chicken Salad
+              {recipe?.name}
             </Typography>
             <div
               style={{
@@ -89,7 +101,7 @@ export default function ActionAreaCard() {
                 <StarBorderOutlinedIcon
                   style={{ fontSize: "small", marginRight: "2px" }}
                 />
-                4.6/5
+                {recipe?.rating + "/5"}
               </Typography>
             </div>
           </div>
@@ -111,7 +123,7 @@ export default function ActionAreaCard() {
                 <AccessTimeOutlinedIcon
                   style={{ fontSize: "small", marginRight: "4px" }}
                 />
-                20 mins
+                {recipe?.cookTime}
               </Typography>
             </div>
 
@@ -123,7 +135,7 @@ export default function ActionAreaCard() {
                   fontFamily: "Inter",
                 }}
               >
-                Difficulty: Easy
+                Difficulty: {recipe?.difficulty}
               </Typography>
             </div>
           </div>
